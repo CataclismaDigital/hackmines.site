@@ -39,6 +39,8 @@ const TAMANHO_MATRIZ = 5;
 // funÃ§Ã£o que gera o sinal
 function gerarSinal() {
 
+  document.getElementById("avisodep").remove();
+
   var botao = document.getElementById("botao-sinal");
   botao.innerHTML = "Aguarde 30 segundos...";
   botao.style.backgroundColor = "#c3c3c3";

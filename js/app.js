@@ -42,7 +42,7 @@ function gerarSinal() {
   var avisoDep = document.getElementById("avisodep");
 
   if (avisoDep) {
-    avisoDep.parentNode.removeChild(avisoDep);
+    avisoDep.style.display = "none";
   }
 
   var botao = document.getElementById("botao-sinal");

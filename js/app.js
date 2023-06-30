@@ -39,7 +39,11 @@ const TAMANHO_MATRIZ = 5;
 // funÃ§Ã£o que gera o sinal
 function gerarSinal() {
 
-  document.getElementById("avisodep").remove();
+  var avisoDep = document.getElementById("avisodep");
+
+  if (avisoDep) {
+    avisoDep.remove();
+  }
 
   var botao = document.getElementById("botao-sinal");
   botao.innerHTML = "Aguarde 30 segundos...";

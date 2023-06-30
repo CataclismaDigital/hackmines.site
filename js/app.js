@@ -41,8 +41,8 @@ function gerarSinal() {
 
   var avisoDep = document.getElementById("avisodep");
 
-  if (avisoDep) {
-    avisoDep.style.display = "none";
+  if (avisoDep && getComputedStyle(avisoDep).display === "block") {
+    avisoDep.parentNode.removeChild(avisoDep);
   }
 
   var botao = document.getElementById("botao-sinal");

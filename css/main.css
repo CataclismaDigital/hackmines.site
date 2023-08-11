@@ -1003,6 +1003,7 @@ iframe {
 
 
 
+
 @media (min-width: 768px) {
    .sinal-bloco {
     --width: 460px;
@@ -1062,6 +1063,5 @@ iframe {
     
   border-radius: 20px;
   }
-
 
 }

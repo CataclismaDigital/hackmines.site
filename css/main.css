@@ -756,8 +756,8 @@ header {
 
 
 iframe {
-    width: 1080px;
-    height: 600px;
+    width: 360px;
+    height: 750px;
     display: block;
     margin: auto;
     max-width: 100%;
@@ -799,7 +799,7 @@ iframe {
   }
   iframe {
     width: 360px;
-    height: 600px;
+    height: 750px;
     display: block;
     margin: auto;
     max-width: 100%;
